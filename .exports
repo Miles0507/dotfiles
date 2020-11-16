@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+# terminal prompt display and color
+# PS1='\h:\W u\$' / PS1='\W \u\$ ' 
+# export PS1='\[\033[1;33;33m\]\W \[\033[1;37m\]\u\[\033[1;37m\]\$ \[\033[1;32;32m\]'
+
+# ls command's color setting
+export CLICOLOR=1
+export LSCOLORS=DxFxBxDxCxegedabagacad
+
+# Make vim the default editor.
+export EDITOR='vim';
+
+# Increase Bash history size. Allow 32³ entries; the default is 500.
+export HISTSIZE='32768';
+export HISTFILESIZE="${HISTSIZE}";
+# Omit duplicates and commands that begin with a space from history.
+export HISTCONTROL='ignoreboth';
+
+# Make Python use UTF-8 encoding for output to stdin, stdout, and stderr.
+export PYTHONIOENCODING='UTF-8';
