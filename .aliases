@@ -16,6 +16,7 @@ alias bashrc='vim ~/.bashrc'
 alias bashpf='vim ~/.bash_profile'
 alias sobc='source ~/.bashrc'
 alias sobf='source ~/.bash_profile'
+alias cpsshkey='pbcopy < ~/.ssh/id_rsa.pub'
 
 
 # Print PATH
